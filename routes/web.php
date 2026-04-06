@@ -16,3 +16,6 @@ require __DIR__ . '/settings.php';
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/trending', function () {
+    return view('trending');
+});

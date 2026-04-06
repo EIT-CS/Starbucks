@@ -12,7 +12,7 @@
   @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="min-h-screen flex flex-col font-sans">
+<body class="h-screen flex flex-col font-sans">
   <nav class="navbar bg-base-100">
     <div class="navbar-start">
       <a href="/" class="btn btn-ghost text-xl">🐦 Starbucks</a>
@@ -23,7 +23,7 @@
     </div>
   </nav>
 
-  <main class="flex-1 ml-20 mr-9 mb-9 bg-[#FEF9F3] rounded-3xl relative">
+  <main class="flex-1 ml-20 mr-9 mb-9 bg-[#FEF9F3] rounded-3xl relative items-center h-full">
     <img src="/bgLogo.svg" alt="" class="absolute top-1/5 w-64 right-0 object-cover z-10">
     {{ $slot }}
   </main>

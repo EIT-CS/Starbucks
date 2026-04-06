@@ -22,3 +22,6 @@ Route::get('/trending', function () {
 Route::get('/store', function () {
     return view('store');
 });
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});

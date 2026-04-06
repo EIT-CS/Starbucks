@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/trending', function () {
     return view('trending');
 });
+Route::get('/store', function () {
+    return view('store');
+});

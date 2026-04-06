@@ -12,7 +12,7 @@
   @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="min-h-screen flex flex-col bg-base-200 font-sans">
+<body class="min-h-screen flex flex-col font-sans">
   <nav class="navbar bg-base-100">
     <div class="navbar-start">
       <a href="/" class="btn btn-ghost text-xl">🐦 Starbucks</a>
@@ -23,15 +23,11 @@
     </div>
   </nav>
 
-  <main class="flex-1 container mx-auto px-4 py-8">
+  <main class="flex-1 ml-20 mr-9 mb-9 bg-[#FEF9F3] rounded-3xl relative">
+    <img src="/bgLogo.svg" alt="" class="absolute top-1/5 w-64 right-0 object-cover z-10">
     {{ $slot }}
   </main>
 
-  <footer class="footer footer-center p-5 bg-base-300 text-base-content text-xs">
-    <div>
-      <p>© 2025 Starbucks - Built with Laravel and ❤️</p>
-    </div>
-  </footer>
 </body>
 
 </html>

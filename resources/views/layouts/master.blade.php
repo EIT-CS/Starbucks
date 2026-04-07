@@ -19,7 +19,6 @@
 <body class="bg-white min-vh-100 d-flex flex-column">
     <div class="container-fluid p-0 flex-grow-1 d-flex flex-column">
         <div class="px-3 px-lg-5 py-3 d-flex flex-column flex-grow-1">
-
             <nav class="navbar navbar-expand-lg p-0 flex-shrink-0">
                 <div class="container-fluid p-0">
 

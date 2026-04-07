@@ -13,11 +13,25 @@
 </head>
 
 <body class="h-screen flex flex-col font-sans">
-  <nav class="navbar bg-base-100">
+  <nav class="navbar bg-base-100 py-6 px-5">
     <div class="navbar-start">
-      <a href="/" class="btn btn-ghost text-xl">🐦 Starbucks</a>
+      <a href="/" class=" text-xl flex gap-10 items-center">
+        <img src="/logo.svg" alt="">
+        <p class="font-extrabold text-xl">
+          Starbucks
+        </p>
+      </a>
     </div>
-    <div class="navbar-end gap-2">
+    <div class="navbar-end flex gap-8">
+      <a href="/trending">
+        <p>Home</p>
+      </a>
+      <a href="/store">
+        <p>Store</p>
+      </a>
+      <a href="/aboutus">
+        <p>Aboute us</p>
+      </a>
       <a href="#" class="btn btn-ghost btn-sm">Sign In</a>
       <a href="#" class="btn btn-primary btn-sm">Sign Up</a>
     </div>

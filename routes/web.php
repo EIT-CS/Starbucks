@@ -25,3 +25,6 @@ Route::get('/store', function () {
 Route::get('/aboutus', function () {
     return view('aboutus');
 });
+Route::get('/signin', function () {
+    return view('signin');
+});

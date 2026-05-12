@@ -1,4 +1,4 @@
-<x-layout>
+<!-- <x-layout>
   <x-slot:title>
     Welcome to Starbucks
   </x-slot:title>
@@ -15,4 +15,4 @@
       </div>
     </div>
   </div>
-</x-layout>
+</x-layout> -->
